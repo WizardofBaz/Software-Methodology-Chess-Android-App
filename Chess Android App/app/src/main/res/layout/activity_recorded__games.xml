@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Recorded_Games">
+
+    <Button
+        android:id="@+id/Open"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="open"
+        android:text="Open" />
+
+    <Button
+        android:id="@+id/sortDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="sortDate"
+        android:text="Sort By Date" />
+
+    <Button
+        android:id="@+id/sortName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="sortName"
+        android:text="Sort By Name" />
+
+    <ListView
+        android:id="@+id/listview"
+        android:layout_width="400dp"
+        android:layout_height="576dp">
+
+    </ListView>
+
+</LinearLayout>
